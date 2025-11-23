@@ -19,11 +19,11 @@ const tabMappings = {
             setActiveButton(id);
         })
     }
-});
+})();
 
 function setActiveButton(id) {
     const allButtons = document.querySelectorAll('nav button');
-    allButtons.forEach(btn => classList.remove('active'));
+    allButtons.forEach(btn => btn.classList.remove('active'));
 
     const activeBtn = document.getElementById(id);
     activeBtn.classList.add('active');
