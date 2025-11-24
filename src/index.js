@@ -1,6 +1,7 @@
 import HomeLoader from './modules/home.js';
 import MenuLoader from './modules/menu.js';
 import ContactLoader from './modules/contact.js';
+import './styles/style.css';
 
 const tabMappings = {
     'home-btn': HomeLoader,

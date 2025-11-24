@@ -1,3 +1,5 @@
+import '../styles/home.css';
+
 export default function home() {
     const contentDiv = document.getElementById('content');
     contentDiv.innerHTML = '';

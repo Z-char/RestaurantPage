@@ -1,0 +1,36 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#root > header {
+    flex: 0 0 5vh;
+}
+
+#root > #content {
+    flex-grow: 9;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#root > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 60vw;
+    gap: 10px;
+}
+
+nav > button {
+    flex-grow: 1;
+    padding: 10px 15px;
+}

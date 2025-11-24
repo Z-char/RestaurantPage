@@ -1,0 +1,31 @@
+/* In home.css */
+
+.home-container {
+    max-width: 900px;  /* Constrain width for readability */
+    margin: 40px auto; /* Center container horizontally and give top margin */
+    padding: 20px;
+    text-align: center;
+}
+
+.home-container h2 {
+    font-size: 2.5rem; /* Make the title much bigger */
+    color: #34495e;
+}
+
+.highlight-section {
+    margin-top: 30px; /* Space from the description */
+    padding: 30px;
+    background-color: #f7f9fc; /* Light background for contrast */
+    border-radius: 8px;
+}
+
+.highlight-section ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    
+    /* Grid for two-column layout */
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 15px; /* Spacing between list items */
+    text-align: left; /* Make text readable again */
+}
